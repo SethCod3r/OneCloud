@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 *{
+
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
-
 }
+
 body{
+    top: 0;
     overflow-x: hidden;
 }
 .home{
-    height: 150vh;
+    height: 130vh;
     background: linear-gradient(70.9deg, #0c0a10 59.25%, #383838 132.33%);
 }
 h1 {
@@ -19,11 +21,12 @@ h1 {
 .nav{
     position: absolute;
     top: 50px;
-    right: -50px;
+    right: -32px;
+    z-index: 2;
 }
 .nav ul li{
     display: inline-block;
-    padding: 0px 150px 0px 0px;
+    padding: 0px 130px 0px 0px;
 }
 .nav ul li a{
     text-decoration: none;
@@ -31,8 +34,8 @@ h1 {
 }
 .lft-side-bar{
     position: absolute;
-    height: 120vh;
-    width: 25vh;
+    height: 130vh;
+    width: 22vh;
 }
 .logo{
     position: absolute;
@@ -114,24 +117,138 @@ h1 {
     left: -30%;
     transform: scale(0.5);
 }
-.bg-stroke-1{
-    position: absolute;
-    background-color: #100E15;
-    height: 150vh;
-    width: 150px;
+
+.login-btn{
+    border: 1px solid white;
+ padding: 15px 25px 15px 25px;
+}
+.sign-up-btn{
+    background-color: #065AFF;
+    padding: 15px 25px 15px 25px;
+}
+.main-title-span-txt{
+    font-size: 50px;
+    font-family: Artegra Sans Ex ExtraBold;
+    background: linear-gradient(90.45deg, #FFFA77 4.59%, #FF8819 42.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gridline{
+    background: linear-gradient(180deg, rgba(255, 136, 25, 0.2) 0%, rgba(0, 0, 0, 0) 2%)
+    height: 130vh;
+    width: 200px;
+    margin-left: 158px;
     z-index: -1;
+    opacity: 0.1;
 }
-.bg-stroke-2{
-    background-color: transparent;
-     height: 150vh;
-     width: 180px;
-     margin-left: 200px;
-     border: 1px solid white;
+.about-us {
+    position: relative;
+    background-color: #0c0a10;
+    height: 100vh;
+    width: 100%; 
 }
-.bg-stroke-3{
-    background-color: white;
-     height: 150vh;
-     width: 180px;
-     margin-left: 200px;
-     border: 1px solid white;
+.page-txt-2{
+    font-size: 130px;
+    mix-blend-mode: overlay;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+.globe{
+    position: absolute;
+    margin-left: -750px;
+    transform: scale(0.4);
+    margin-top: -500px;
+}
+
+.about-span-txt{
+    font-size: 50px;
+    font-family: Artegra Sans Ex ExtraBold;
+    background: linear-gradient(265.48deg, #BE3DFB 13.76%, #AD00FF 13.77%, #4F56FF 90.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.about-lft-txt{
+    
+    font-size: 25px;
+    width: 600px;
+    top: 50%; 
+}
+.about-rgt-txt{
+    font-size: 22px;
+    font-weight: 100;
+    width: 60vh;
+    padding-top: 10px;
+    position: absolute;
+   
+}
+
+.about-lft-txt{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    left: 80px;
+}
+.about-rgt-txt-container{
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
+.bg-blob-1 {
+    background-color: #8000FF;
+    height: 250px;
+    width: 250px;
+    z-index: -1;
+    border-radius: 25px 50px 20px 20px;
+    margin-top: 100px;
+    filter: blur(500px);
+    opacity: 0.3;
+    animation: blob-float-1 5s infinite linear;
+}
+.bg-blob-2{
+    background-color: #8000FF;
+    height: 250px;
+    width: 250px;
+    z-index: -1;
+    border-radius: 25px 50px 20px 20px;
+    margin-top: 100px;
+    margin-left: 1500px;
+    filter: blur(500px);
+    opacity: 0.3;
+    animation: blob-float-2 5s infinite linear;
+}
+
+.blob-container{
+    position: absolute;
+}
+@keyframes blob-float-1 {
+    0%{
+        margin-top: 200px;
+    }
+    50%{
+        margin-top: 500px;
+        margin-left: 200px;
+    }
+    100%{
+        margin-top: 100px;
+        margin-top: 200px;
+        margin-left: 0px;
+    }
+}
+
+
+@keyframes blob-float-2 {
+    0%{
+        margin-left: 1500px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 1000px;
+    }
+    100%{
+        margin-left: 1500px;
+        margin-top: 0;
+
+    }
 }

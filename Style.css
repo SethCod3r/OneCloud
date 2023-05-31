@@ -4,8 +4,9 @@
     font-family: Artegra Sans Ex ExtraBold;
     src: url(/Assests/Fonts/FontsFree-Net-ddfd70c8-a27b-4afb-86fa-0fd2113504b7.ttf);
 }
-
-
+html {
+    scroll-behavior: smooth;
+  }
 * {
 
     margin: 0;
@@ -18,7 +19,8 @@
 body {
     top: 0;
     overflow-x: hidden;
-
+    
+   background-color:  #0c0a10;
 }
 
 .home {
@@ -397,26 +399,111 @@ h1 {
     margin-left: calc(100% - 78%);
 }
 
-.format-container h2{
+.format-container h2 {
     font-size: 15px;
     font-weight: lighter;
     width: 300px;
 }
-.formats-container{
+
+.formats-container {
 
     margin-left: -90px;
     display: grid;
-  grid-template-columns: 500px 500px auto;
- padding: 200px;
+    grid-template-columns: 500px 500px auto;
+    padding: 200px;
 
 }
-.format-container{
+
+.format-container {
     margin-top: 80px;
 }
+
 .format-txt {
     margin-top: 15px;
     font-size: 25px;
 }
-.format-container h2{
+
+.format-container h2 {
     margin-top: 5px;
+}
+
+.page-end {
+    height: 100vh;
+}
+
+.page-end-lft-bar {
+    position: absolute;
+    height: 100vh;
+    width: 200px;
+    background-color: #0c0a10;
+}
+
+.page-end-main-cnt {
+    position: absolute;
+    margin-top: calc(100% - 96%);
+    margin-left: calc(100% - 75%);
+    text-align: center;
+}
+
+.page-end-txt-span {
+    font-size: 60px;
+    font-family: Artegra Sans Ex ExtraBold;
+    background: linear-gradient(90.45deg, #FFFA77 4.59%, #FF8819 42.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page-end-txt {
+    font-size: 60px;
+    width: 800px;
+}
+
+.page-end-sub-txt {
+    font-weight: lighter;
+    width: 800px;
+    margin-top: 5px;
+}
+.page-txt-5 {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.social-media-end{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.social-media-end li {
+    padding: 15px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.up-btn {
+    font-size:90px;
+    margin-top: 50px;
+    margin-left: 25px;
+     transform: scale(0.8);
+}
+.up-btn a{
+
+   background-color: white;
+    padding: 0px 30px 10px 30px ;
+    border-radius: 100%;
+    text-decoration: none;
+    color: black;
+}
+.rocket-hero{
+    position: absolute;
+    margin-top: 285px;
+    margin-left: 150px;
+    transform: scale(0.8);
+
+}
+.moon{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 1000px;
+    transform: scale(0.8);
+}
+.footer {
+    height: 80vh;
 }

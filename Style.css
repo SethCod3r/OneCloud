@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+body{
+    overflow-x: hidden;
+}
+.home{
+    height: 150vh;
+    background: linear-gradient(70.9deg, #0c0a10 59.25%, #383838 132.33%);
+}
+h1 {
+    font-family: Artegra Sans Ex ExtraBold;
+}
+.nav{
+    position: absolute;
+    top: 50px;
+    right: -50px;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 0px 150px 0px 0px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.lft-side-bar{
+    position: absolute;
+    height: 120vh;
+    width: 25vh;
+}
+.logo{
+    position: absolute;
+    transform: scale(0.80);
+    top: 20px;
+    left: 20px;
+}
+.social-media{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+  
+}
+.social-media ul li {
+    padding-top: 30px;
+    list-style-type: none;
+}
+.page-txt-1{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 22px;
+}
+.page-txt-underline{
+    position: absolute;
+    height: 10px;
+    width: 60px;
+    background: linear-gradient(90deg, #96DBD8 4.02%, #EDCD7A 53.31%, #FB663D 100%);
+    border-radius: 20px;
+}
+.home-main-cnt{
+    position: absolute;
+    top: 25%;
+    left: 14.5%;
+}
+.main-title{
+    font-size: 50px;
+    width: 120vh;
+}
+.main-sub-title{
+    font-size: 20px;
+    font-weight: lighter;
+    width: 80vh;
+    padding-top: 10px;
+}
+.span-arrow{
+    font-size: 20px;
+    margin-left: 5px;
+    width: 100%;
+
+}
+.span-arrow-black{
+    font-size: 20px;
+    margin-left: 5px;
+    color: black;
+}
+.get-started-btn{
+    text-decoration: none;
+    background: linear-gradient(82.99deg, #EDCD7A 43.11%, #FB663D 96.44%);
+    padding: 20px 15px 20px 20px;
+    color: black;
+    box-shadow: 0px 0px 42px #EDCD7A;
+}
+.about-us-btn{
+    margin-left: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 20px 15px 20px 20px;
+    background-color: none;
+    box-shadow: 0px 0px 5px white;
+}
+.home-btns{
+    margin-top: 40px;
+    
+}
+.hero-img{
+    position: absolute;
+    top: -60%;
+    left: -30%;
+    transform: scale(0.5);
+}
+.bg-stroke-1{
+    position: absolute;
+    background-color: #100E15;
+    height: 150vh;
+    width: 150px;
+    z-index: -1;
+}
+.bg-stroke-2{
+    background-color: transparent;
+     height: 150vh;
+     width: 180px;
+     margin-left: 200px;
+     border: 1px solid white;
+}
+.bg-stroke-3{
+    background-color: white;
+     height: 150vh;
+     width: 180px;
+     margin-left: 200px;
+     border: 1px solid white;
+}

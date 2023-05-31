@@ -18,6 +18,7 @@
 body {
     top: 0;
     overflow-x: hidden;
+
 }
 
 .home {
@@ -388,11 +389,34 @@ h1 {
     height: 350vh;
     background-color: black;
 }
-.format-header-txt{
+
+.format-header-txt {
     font-size: 50px;
     position: absolute;
-    margin-top: 150px;
-    margin-left: calc(
-        100% - 78%
-    );
+    margin-top: 100px;
+    margin-left: calc(100% - 78%);
+}
+
+.format-container h2{
+    font-size: 15px;
+    font-weight: lighter;
+    width: 300px;
+}
+.formats-container{
+
+    margin-left: -90px;
+    display: grid;
+  grid-template-columns: 500px 500px auto;
+ padding: 200px;
+
+}
+.format-container{
+    margin-top: 80px;
+}
+.format-txt {
+    margin-top: 15px;
+    font-size: 25px;
+}
+.format-container h2{
+    margin-top: 5px;
 }

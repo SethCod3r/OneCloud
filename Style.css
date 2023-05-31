@@ -7,6 +7,11 @@
     color: white;
 }
 
+@font-face {
+    font-family: Artegra Sans Ex ExtraBold;
+    src: url(/Assests/Fonts/FontsFree-Net-ddfd70c8-a27b-4afb-86fa-0fd2113504b7.ttf);
+  }
+
 body{
     top: 0;
     overflow-x: hidden;
@@ -253,7 +258,7 @@ h1 {
     }
 }
 .services {
-    height: 350vh;
+    height: 250vh;
     background-color: #0c0a10;
 }
 .page-txt-3{
@@ -268,8 +273,8 @@ h1 {
 }
 .services-txt{
     position: absolute;
-    margin-top: 250px;
-    margin-left: 650px;
+    margin-top: 130px;
+    margin-left: 700px;
 }
 .services-rtmp-img {
     position: absolute;
@@ -309,4 +314,25 @@ h1 {
 .services-txt {
     width: 800px;
 }
-.services-txt
+.services-txt h1{
+    font-size: 50px;
+    width: 600px;
+}
+.services-txt-sub{
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 10px;
+    width: 600px;
+}
+
+.service-span {
+    font-size: 50px;
+    font-family: Artegra Sans Ex ExtraBold;
+    background: linear-gradient(90.45deg, #FFFA77 4.59%, #FF8819 42.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.supported-formats {
+    height: 350vh;
+    background-color: black;
+}

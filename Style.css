@@ -33,15 +33,15 @@ h1 {
 }
 
 .nav {
-    position: absolute;
+    position: fixed;
     top: 50px;
-    right: -32px;
+    right: 0px;
     z-index: 2;
 }
 
 .nav ul li {
     display: inline-block;
-    padding: 0px 130px 0px 0px;
+    padding: 0px 100px 0px 0px;
 }
 
 .nav ul li a {
